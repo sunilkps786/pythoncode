@@ -1,0 +1,121 @@
+name = "Vikas"
+print (name)
+================
+name = "Vikas"
+print (type(name))
+==================
+num = 5
+print (type(num))
+==================
+num = 5.2
+print (type(num))
+====================
+num = "5.2"
+print (isinstance(num,str))
+
+num = 5.2
+print (type(num) == float)
+============================
+name = "vikas"
+num = 5
+num1 =5.34
+
+print (type(name) == str)
+print (type(num) == int)
+print (type(num1) == float)
+
+print (isinstance(name, str))
+print (isinstance(num, int))
+print (isinstance(num1, float))
+=================================
+name = "VIKAS"
+print (name.lower())
+================================
+name = "vikas"
+print (name.upper())
+============================
+name = "vikas12345678"
+print (len(name))
+=========================
+
+name = "vikas\"s class is intresting "
+print (name)
+================================
+name = "vikas\ns class is intresting "
+print (name)
+
+
+print (len(name))
+
+====================
+
+name = "This is a python class"
+print (len(name))
+print (name[17:22])
+======================
+num = 34.789012
+print (round(num,2))
+=======================
+age = input("What is your age ? ")
+print ("Your age is " + age)
+===================================
+done = True
+
+print (type(done) == bool )
+
+if done:
+    print ("yes")
+else:
+    print ("no")
+====================================
+a = 11
+b = 22
+
+print (a/b)
+print (a*b)
+print (a+b)
+print (a-b)
+print (a < b)
+print (a > b)
+print (a == b)
+print (a != b)
+
+========================================
+def is_adult(age):
+    if age > 18:
+        return True
+    else:
+        return False
+        
+res = is_adult(9)
+print (res)
+
+===============================================
+def get_choices():
+    player_choice = "Football"
+    computer_choice = "Chess"
+    
+    return player_choice
+    
+def greetings():
+    return "Hi Python"
+    
+choices = get_choices()
+print (choices)
+
+response = greetings()
+print (response) 
+========================================================
+def age_calculation(age):
+    if age >=18:
+        return "You are an adult"
+    elif age >12:
+        return "You are a teenager"
+    elif age >1:
+        return "you are a new born"
+    else:
+        return "invalid input"
+        
+response = age_calculation(-6)
+print (response) 
+======================================================
